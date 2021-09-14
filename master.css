@@ -12,8 +12,17 @@ body {
 /*utility*/
 hr {
     color:  #f8f5f5;
-    border: 0px;
+}
 
+.v {
+    color: lightgreen;
+}
+.x {
+    color: red;
+}
+
+.title {
+    margin-top: 20px;
 }
 /*Background*/
 .background {
@@ -59,6 +68,7 @@ header {
     text-align: center;
     border-radius: 10%;
     margin-top: 15px;
+    font-family: ;
 }
 
 .button2 {
@@ -74,4 +84,63 @@ header {
     margin-top: 15px;
 }
 
+/*main*/
+.main {
+    width: auto;
+    background-color: white;
+    margin: 30px 30px;
+}
+
+.button3 {
+    width: 45px;
+    height: 15px;
+    background-color: rgb(88, 185, 245);
+    font-size: 9px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    border-radius: 10%;
+
+}
+
+.button4 {
+    width: 45px;
+    height: 15px;
+    background-color: rgb(183, 37, 250);
+    font-size: 9px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    border-radius: 10%;
+}
+
+.button5 {
+    width: 45px;
+    height: 15px;
+    background-color: rgb(90, 192, 81);
+    font-size: 9px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    border-radius: 10%;
+}
+
+.button6 {
+    width: 45px;
+    height: 15px;
+    background-color: rgb(243, 159, 32);
+    font-size: 9px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-radius: 10%;
+}
 
